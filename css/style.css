@@ -1,0 +1,65 @@
+*{
+    background-color:whitesmoke;
+}
+h2
+{
+    color: orange;
+    background-color: yellow;
+}
+
+/*use for class attribute*/
+.para
+{
+    color: purple;
+    font-size: 20px;
+}
+
+/*use for id attribute*/
+#paragraph
+{
+    color: blue;
+}
+
+a:link{
+    color: green;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover {
+    background-color: lightcoral;
+    font-size: 30px;
+}
+
+h3::first-letter
+{
+    color: red;
+}
+
+h3::first-line
+{
+    background-color: lightcoral;
+}
+
+h3:first-child
+{
+    color: blue;
+}
+
+.division::before{
+    content: 'Insert Before';
+    color: red;
+}
+
+.division::after{
+    content: 'Insert After';
+    color: red;
+}
+
+/*comment of CSS*/
